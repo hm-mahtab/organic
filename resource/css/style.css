@@ -1,0 +1,79 @@
+/* ==========================
+        BASIC SETUP
+============================= */
+*{
+    padding: 0px;
+    margin: 0px ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==========================
+        REUSABLE COMPONENTS
+============================= */
+
+
+/* ==========================
+       START HEADER SECTIONS
+============================= */
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+}
+.nav-link{
+    color: #110f0f;
+    text-transform: capitalize;
+}
+
+.search{
+    border-radius: 2rem;
+    border: 0.2rem solid #FF345D;
+    margin-right: -2rem;
+
+}
+
+.btn-search{
+    outline: none;
+    background-color: #FF345D;
+    border-radius: 2rem;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+/* ==========================
+       END HEADER SECTIONS
+============================= */
+
+/* ==========================
+       START MAIN SECTIONS
+============================= */
+.main-bg{
+    background-color: #D0E0E5;
+}
+.heading{
+    color:#19252A;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.more-tips-btn{
+    display:inline-block;
+    text-transform: capitalize;
+    background-color: #FF345D;
+    text-align: center;
+    color: #fff;
+    margin:1rem auto;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    border-radius: 2rem; 
+}
+
+/* ==========================
+       END MAIN SECTIONS
+============================= */
